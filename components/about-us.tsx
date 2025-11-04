@@ -3,10 +3,10 @@ import Heading from "./ui/Heading";
 
 const AboutUs = () => {
   return (
-    <section className="py-20">
+    <section className="py-12 lg:py-20 px-4 lg:px-0">
       <div className="max-w-7xl m-auto gap-x-4">
         <div>
-          <Heading className="">ჩვენ შესახებ</Heading>
+          <Heading className="text-center">ჩვენ შესახებ</Heading>
           <div>
             <p className="pb-2 indent-4">
               sakhuravi.ge არის თქვენი საიმედო პარტნიორი სახურავის შეკეთებისა და

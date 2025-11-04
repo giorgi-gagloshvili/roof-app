@@ -21,16 +21,16 @@ export default function Home() {
             backgroundPosition: "center",
           }}
         >
-          <div className="flex items-center justify-center flex-col h-full gap-4">
-            <h1 className="text-5xl text-white font-les-regular font-bold text-shadow-gray-600">
+          <div className="flex items-center justify-center flex-col h-full gap-4 px-4 lg:px-0">
+            <h1 className="text-2xl sm:text-3xl lg:text-5xl text-white font-les-regular font-bold text-shadow-gray-600">
               სახურავის ხელოსანი{" "}
             </h1>
-            <h2 className="text-2xl text-white font-tbc-regular">
+            <h2 className="text-xl lg:text-2xl text-center text-white font-tbc-regular">
               {"დაგვირეკეთ ან მოგვწერეთ WhatsApp-ის საშუალებით"}
             </h2>
             <Link
               href="/"
-              className="text-3xl mt-6 flex-center gap-x-2 font-les-regular px-8 py-2.5 rounde -skew-x-12 text-white bg-[#25d366] font-bold"
+              className="text-2xl lg:text-3xl lg:mt-6 flex-center gap-x-2 font-les-regular px-8 py-2.5 rounde -skew-x-12 text-white bg-[#25d366] font-bold"
             >
               {/* <TbBrandWhatsapp className="text-[#25d366] text-4xl" /> */}
               <span className="skew-x-12 tracking-wider">551 600060</span>
