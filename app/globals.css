@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: tbc-regular;
+  src: url("/fonts/TBCXRegular.woff2");
+}
+
+@font-face {
+  font-family: "tbc-medium";
+  src: url("/fonts/TBCXMedium.woff2");
+}
+@font-face {
+  font-family: les-regular;
+  src: url("/fonts/bpg-le-studio-04-caps-webfont.woff2");
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-tbc-regular: "tbc-regular", sans-serif;
+  --font-les-regular: "les-regular", sans-serif;
+}
+
+body {
+  font-family: "tbc-regular";
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
