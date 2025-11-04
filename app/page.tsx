@@ -4,6 +4,8 @@ import Image from "next/image";
 import { TbBrandWhatsapp } from "react-icons/tb";
 import Button from "@/components/ui/Button";
 import Header from "@/components/header";
+import Calculator from "@/components/Calculator";
+import AboutUs from "@/components/about-us";
 
 export default function Home() {
   return (
@@ -31,11 +33,15 @@ export default function Home() {
               className="text-3xl mt-6 flex-center gap-x-2 font-les-regular px-8 py-2.5 rounde -skew-x-12 text-white bg-[#25d366] font-bold"
             >
               {/* <TbBrandWhatsapp className="text-[#25d366] text-4xl" /> */}
-              <span className="skew-x-12">551 600060</span>
+              <span className="skew-x-12 tracking-wider">551 600060</span>
             </Link>
           </div>
         </div>
-        <Services />
+        <div className="">
+          <AboutUs />
+          <Services />
+          <Calculator />
+        </div>
       </main>
     </div>
   );

@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "tbc-medium";
+  font-family: tbc-medium;
   src: url("/fonts/TBCXMedium.woff2");
 }
 @font-face {
@@ -26,6 +26,7 @@
   --font-mono: var(--font-geist-mono);
   --font-tbc-regular: "tbc-regular", sans-serif;
   --font-les-regular: "les-regular", sans-serif;
+  --font-tbc-medium: "tbc-medium", sans-serif;
 }
 
 body {
@@ -34,4 +35,7 @@ body {
 
 .flex-center {
   @apply flex items-center justify-center;
+}
+.list-item {
+  @apply list-disc pb-2;
 }
