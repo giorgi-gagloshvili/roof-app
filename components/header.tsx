@@ -28,7 +28,7 @@ const header = () => {
   return (
     <header
       className={cn(
-        "fixed left-0 w-full py-4 z-50 transition-all duration-200 px-4",
+        "fixed left-0 w-full py-4 z-50 transition-all duration-200",
         isScrolled ? "top-0 backdrop-blur-md" : "bg-transparent top-4 blur-none"
       )}
     >
@@ -49,7 +49,7 @@ const header = () => {
               ? "bg-[#25d366] border-[#25d366]"
               : "bg-transparent border-white"
           )}
-          href="https://wa.me/+995555888282"
+          href="https://wa.me/+995551008057"
           target="_blank"
         >
           <TbBrandWhatsapp

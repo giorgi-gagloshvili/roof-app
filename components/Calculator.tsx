@@ -42,7 +42,7 @@ const Calculator = () => {
   }, [area, material]);
 
   return (
-    <div className="flex flex-col items-center py-12 lg:py-20 max-w-7xl mx-auto px-4 md:px-6 xl:px-0">
+    <div className="flex flex-col items-center py-12 lg:py-20 max-w-[1312px] mx-auto px-4">
       <Heading>ფასის კალკულაცია</Heading>
       <Tagline>შეგახსენებთ რომ კალკულატორი ითვლის დაახლოებით ფასს</Tagline>
 

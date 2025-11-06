@@ -41,8 +41,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-12 lg:py-20 px-4 md:px-6 bg-background">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-12 lg:py-20 bg-background">
+      <div className="max-w-[1312px] px-4 mx-auto">
         <div className="text-center mb-16">
           <Heading>ჩვენი სერვისები</Heading>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
