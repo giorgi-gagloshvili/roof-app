@@ -99,7 +99,9 @@ const Calculator = () => {
           </div>
           <div className="flex justify-between mt-4">
             <p className="font-tbc-medium">მასალის ფასი</p>{" "}
-            <span className="text-lg">{materialPrice?.toFixed(2)} ლარი</span>
+            {materialPrice && (
+              <span className="text-lg">{materialPrice?.toFixed(2)} ლარი</span>
+            )}
           </div>
           {totalPrice && materialPrice ? (
             <div className="flex justify-between mt-4">

@@ -32,14 +32,32 @@ const header = () => {
         isScrolled ? "top-0 backdrop-blur-md" : "bg-transparent top-4 blur-none"
       )}
     >
-      <div className="m-auto w-7xl flex justify-between">
-        <Image src="/logo.png" alt="logo" width={80} height={60} />
+      <div className="m-auto xl:w-[1312px] px-4 flex justify-between">
+        <div className="w-22 h-auto">
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={80}
+            height={60}
+            className="w-full h-full"
+          />
+        </div>
         <Link
-          className="text-white flex-center gap-x-2 border-2 border-white rounded-xl px-5 py-2"
-          href="https://wa.me/"
+          className={cn(
+            "text-white flex-center gap-x-2 border-2 border-white rounded-xl px-5 py-2 transition-all duration-300",
+            isScrolled
+              ? "bg-[#25d366] border-[#25d366]"
+              : "bg-transparent border-white"
+          )}
+          href="https://wa.me/+995555888282"
           target="_blank"
         >
-          <TbBrandWhatsapp className="text-[#25d366] text-3xl" />
+          <TbBrandWhatsapp
+            className={cn(
+              " text-3xl",
+              isScrolled ? "text-white" : "text-[#25d366]"
+            )}
+          />
           551 600060
         </Link>
       </div>
