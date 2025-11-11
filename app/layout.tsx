@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,6 +7,9 @@ export const metadata: Metadata = {
   keywords:
     "სახურავის გადახურვა. დაზიანებული სახურავის შეკეთება. რემონტი. მშენებლობა. ჟეშტიანჩიკი. მეთუნუქე. ჟოლობის დამზადება.კრამიტი.ჟეშტი.",
   openGraph: { type: "website" },
+  verification: {
+    google: "R3-DvBSI_7qYKM-A3ijRBtg2C1GUAwlyPAcks10GXXI", // REPLACE THIS STRING
+  },
 };
 
 export default function RootLayout({
